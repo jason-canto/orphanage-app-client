@@ -1,0 +1,60 @@
+#page-map {
+  height: 100vh;
+  width: 100wh;
+  position: relative;
+  display: flex;
+}
+
+#page-map aside {
+  width: 440px;
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#page-map aside h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#page-map aside p {
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+#page-map aside footer {
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-map aside footer strong {
+  font-weight: 800;
+}
+
+#page-map .create-map {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  height: 64px;
+  width: 64px;
+  border-radius: 28px;
+  background: #15c3d6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: background-color 0.3s;
+  z-index: 10;
+}
+
+#page-map .leaflet-container {
+  z-index: 5;
+}
+
+#page-map .create-map:hover {
+  background: #17d6eb;
+}
